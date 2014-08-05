@@ -14,13 +14,13 @@
 		83FF1C621990A6E00066976A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FF1C611990A6E00066976A /* main.m */; };
 		83FF1C661990A6E00066976A /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FF1C651990A6E00066976A /* TLAppDelegate.m */; };
 		83FF1C691990A6E00066976A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FF1C671990A6E00066976A /* Main.storyboard */; };
-		83FF1C6C1990A6E00066976A /* TLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FF1C6B1990A6E00066976A /* TLViewController.m */; };
 		83FF1C6E1990A6E00066976A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83FF1C6D1990A6E00066976A /* Images.xcassets */; };
 		83FF1C751990A6E00066976A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FF1C741990A6E00066976A /* XCTest.framework */; };
 		83FF1C761990A6E00066976A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FF1C551990A6E00066976A /* Foundation.framework */; };
 		83FF1C771990A6E00066976A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FF1C591990A6E00066976A /* UIKit.framework */; };
 		83FF1C7F1990A6E00066976A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83FF1C7D1990A6E00066976A /* InfoPlist.strings */; };
 		83FF1C811990A6E00066976A /* UI_Table_View_challengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FF1C801990A6E00066976A /* UI_Table_View_challengeTests.m */; };
+		83FF1C8C1990A7EE0066976A /* TLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FF1C8B1990A7EE0066976A /* TLTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		83FF1C641990A6E00066976A /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLAppDelegate.h; sourceTree = "<group>"; };
 		83FF1C651990A6E00066976A /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLAppDelegate.m; sourceTree = "<group>"; };
 		83FF1C681990A6E00066976A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		83FF1C6A1990A6E00066976A /* TLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLViewController.h; sourceTree = "<group>"; };
-		83FF1C6B1990A6E00066976A /* TLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLViewController.m; sourceTree = "<group>"; };
 		83FF1C6D1990A6E00066976A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		83FF1C731990A6E00066976A /* UI Table View challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI Table View challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83FF1C741990A6E00066976A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		83FF1C7C1990A6E00066976A /* UI Table View challengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UI Table View challengeTests-Info.plist"; sourceTree = "<group>"; };
 		83FF1C7E1990A6E00066976A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83FF1C801990A6E00066976A /* UI_Table_View_challengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI_Table_View_challengeTests.m; sourceTree = "<group>"; };
+		83FF1C8A1990A7EE0066976A /* TLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTableViewController.h; sourceTree = "<group>"; };
+		83FF1C8B1990A7EE0066976A /* TLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				83FF1C641990A6E00066976A /* TLAppDelegate.h */,
 				83FF1C651990A6E00066976A /* TLAppDelegate.m */,
 				83FF1C671990A6E00066976A /* Main.storyboard */,
-				83FF1C6A1990A6E00066976A /* TLViewController.h */,
-				83FF1C6B1990A6E00066976A /* TLViewController.m */,
+				83FF1C8A1990A7EE0066976A /* TLTableViewController.h */,
+				83FF1C8B1990A7EE0066976A /* TLTableViewController.m */,
 				83FF1C6D1990A6E00066976A /* Images.xcassets */,
 				83FF1C5C1990A6E00066976A /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83FF1C6C1990A6E00066976A /* TLViewController.m in Sources */,
 				83FF1C661990A6E00066976A /* TLAppDelegate.m in Sources */,
 				83FF1C621990A6E00066976A /* main.m in Sources */,
+				83FF1C8C1990A7EE0066976A /* TLTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
